@@ -3,7 +3,7 @@ import tornado.web
 
 class HelloHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Hola, profe)
+        self.write("Hola, profe")
 
     def post(self):
         user = self.get_argument("username")
