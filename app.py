@@ -1,7 +1,7 @@
 import tornado.ioloop
 import tornado.web
 
-class HelloHandler(tornado.web.RequestHandler):
+class HolaMundo(tornado.web.RequestHandler):
     def get(self):
         self.write("Hola, profe")
 
